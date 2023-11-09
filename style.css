@@ -1,0 +1,118 @@
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Roboto:wght@100;400&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+body {
+background-color: grey;
+
+}
+
+header {
+    background-color: black;
+    border: solid 1px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+
+.iconmovie4 {
+height: 2vh;
+
+}
+
+a {
+color: white;
+text-decoration: none;
+}
+
+a:hover {
+color: blue;
+}
+
+h1{
+text-align: center;
+font-size: 20px;
+padding: 20px;
+
+}
+
+section {
+    height: 60vh;
+display:flex;
+justify-content: space-evenly;
+align-items: center;
+position: relative;
+}
+
+.filme1 {
+width: 10vw;
+height: 35vh;
+border-radius: 30px;
+
+}
+
+figcaption {
+text-align: center;
+}
+button {
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+h2 {
+text-align: center;
+font-size: 35px;
+
+}
+
+.series {
+    height: 60vh;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.series2 {
+    width: 10vw;
+    height: 35vh;
+    border-radius: 30px;
+
+}
+
+.iframe1 {
+
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    border: solid 1px;
+    height: 5vh;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .fot {
+    width: 20px;
+  }
+  
+  p {
+    color: white;
+  }
